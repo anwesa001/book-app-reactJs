@@ -1,0 +1,67 @@
+.product-listing-card{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+    width: 100%;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+}
+
+.product-listing-img-container{
+    width: 100%;
+    height: 15rem;
+    text-align: center;
+}
+
+.product-listing-image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+    border-radius: 5px;
+}
+
+.product-listing-details-container{
+    padding-top: 2rem;
+    min-height: 10rem;
+}
+
+.product-listing-details-container h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.author-name{
+    font-size: 1rem;
+    padding:0.5rem 0;
+    font-weight: 500;
+}
+
+.pricing{
+   font-size: 1.5rem;
+   font-weight: 700;
+   color: var(--primary-color) ;
+}
+
+.genre{
+    font-size: 0.9rem;
+    padding:0.5rem 0;
+}
+
+.prdctlstng-btn{
+    display: inline-block;
+    background-color: var(--primary-color);
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
+    font-family: Libre Baskerville;
+    text-decoration: none;
+    margin-top: 2rem;
+    transition: 0.2s ease-in;
+    font-family: Poppins;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.prdctlstng-btn:hover{
+    background-color: var(--primary-color-bright);
+}
